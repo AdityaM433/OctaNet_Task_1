@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1em;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    margin-right: 0.5em; /* Adjust the spacing between the image and the text as needed */
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 2em;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-color: #FEF9E6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 5em; /* Adjust for fixed header */
+    background-image: url("A224486_web_2880.jpg");
+    background-size: 2800px 1900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero .hero-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background: #ffc906;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #223971;
+}
+
+#teams {
+    background-color: #A3EEE3;
+    height: 100vh; /* Set height to 100vh */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#drivers {
+    background-color: #223971;
+    height: 100vh; /* Set height to 100vh */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#teams h2, #drivers h2 {
+    font-size: 2.5em; /* Increased font size */
+    margin-bottom: 1.5em; /* Adjusted margin */
+}
+
+.teams-container, .drivers-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; /* Full width to cover entire section */
+}
+
+.team {
+    background: #d0d0d0;
+    padding: 3em; /* Increased padding */
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 2em;
+}
+
+.driver {
+    background: #cc1e4a;
+    padding: 3em; /* Increased padding */
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 2em;
+}
+
+.team h3, .driver h3 {
+    font-size: 1.5em; /* Increased font size */
+    margin-bottom: 1em;
+}
+
+.team p, .driver p {
+    font-size: 1.2em; /* Increased font size */
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
